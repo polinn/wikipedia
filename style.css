@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: proxima nova;
+  font-size: 20px;
+  line-height: 1.5;
+}
+header {
+  background: url(imgs/david-byrne.jpg);
+
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+
+}
+header h1 {
+  height: 400px;
+  line-height: 400px;
+  color: white;
+  font-family: novecento sans wide, arial, sans-serif;
+  font-size: 144px;
+  text-align: center;
+  text-shadow: 0 0 1px yellow;
+}
+section,
+aside {
+  width: 65%;
+  margin: 2em auto;
+}
